@@ -33,6 +33,7 @@ public class Servlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
+            String url = a
             String nombre = "Casimiro";
             int año = 2010;
             out.println("<!DOCTYPE html>");
