@@ -35,7 +35,7 @@ public class Servlet extends HttpServlet {
             /* TODO output your page here. You may use following sample code. */
             String url = "JSP1.jsp";
             String nombre = "Casimiro";
-            int edad = 5;
+            int edad = 17;
             
             url += "?nombre=" + nombre + "&edad=" + edad;
             
