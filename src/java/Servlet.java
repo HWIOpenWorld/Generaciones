@@ -35,9 +35,9 @@ public class Servlet extends HttpServlet {
             /* TODO output your page here. You may use following sample code. */
             String url = "JSP1.jsp";
             String nombre = "Casimiro";
-            int año = 2010;
+            int edad = 5;
             
-            url += "?nombre=" + nombre + "&año=" + año;
+            url += "?nombre=" + nombre + "&edad=" + edad;
             
             out.println("<!DOCTYPE html>");
             out.println("<html>");
@@ -48,7 +48,7 @@ public class Servlet extends HttpServlet {
             out.println("PROGRAMA DE GENERACIONES");
             out.println("¿Quieres saber de qué generación eres? Pues solo ingresa tu nombre y el año en que naciste para determinar a que generación perteneces");
             out.println("<h1>Por favor, ingrese su nombre" + "</h1>");
-            out.println("<h1>Ahora ingrese el año en que nació" + "</h1>");             
+            out.println("<h1>Ahora ingrese la edad que cumple el 2022" + "</h1>");             
 	    out.println("<br><br>");
             out.println("<a href=\"" + url +"\"> Para visualisar los resultados haga click </a>");
             out.println("</body>");
