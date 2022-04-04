@@ -12,7 +12,6 @@
         <title>Resultados</title>
     </head>
     <body>
-        <h1>Perteneces a la generación: </h1>
         <%
             String nom1 = null;
             String a = null;
@@ -21,6 +20,8 @@
            nom1 = request.getParameter("nombre");
            a = request.getParameter("año");
         %>
+        <h1><%=nom1%> Perteneces a la generación: </h1>
+        
         <br><a href="<%=url3%>">
         regresar </a>
     </body>
