@@ -20,10 +20,7 @@
            nom1 = request.getParameter("nombre");
            edad = Integer.parseInt(request.getParameter("edad"));
         %>
-        <h1><%=nom1%> Perteneces a la generación: </h1>
         
-        <br><a href="<%=url3%>">
-        regresar </a>
         <%
             String gen = "a";
             int aNac = 0;
@@ -51,6 +48,12 @@
                 }
             }
         %>
+        
+        <h1><%=nom1%> Perteneces a la generación: <%=gen%></h1>
+        
+        <br><a href="<%=url3%>">
+        regresar </a>
+        
         
         <br>
     </body>
