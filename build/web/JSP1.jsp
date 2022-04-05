@@ -11,7 +11,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Resultados</title>
     </head>
-    <body>
+    <body bgcolor=naranja>
+    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEsEDZNKhE1LD42Qp4zirzgSkDp10RTulQA&usqp=CAU align=middle>   
+       
         <%
             String nom1 = null;
             int edad = 0;
@@ -20,7 +22,7 @@
            nom1 = request.getParameter("nombre");
            edad = Integer.parseInt(request.getParameter("edad"));
         %>
-        
+        <hr size=6 color=black></hr>
         <%
             String gen = "a";
             int aNac = 0;
@@ -54,7 +56,7 @@
         <br><a href="<%=url3%>">
         regresar </a>
         
-        
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGLgGL0V45892Y7Epqe8_J4YCN9I1PmkVrw&usqp=CAU align=middle 
         <br>
     </body>
 </html>
