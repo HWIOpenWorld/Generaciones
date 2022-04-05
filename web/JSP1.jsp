@@ -27,22 +27,24 @@
             
             aNac = 2022 - edad;
             if (aNac >= 1946 && aNac < 1965) {
-                gen = "Baby boomer";
+                gen = <font color=purple>"Baby boomer"</font>;
             }
             else{
                 if (aNac >= 1965 && aNac <= 1981) {
-                    gen = "X";
+                    gen = <font color=orange>"X"</font>;
                 }
                 else{
                     if (aNac >= 1982 && aNac < 1996) {
-                        gen = "de los Millennials";
+                        gen = <font color=blue>"de los Millennials"</font>;
                     }
                     else{
                         if (aNac >= 1996 && aNac <= 2012) {
-                            gen = "Z";
+                            gen = <font color=yellow>"Z"</font>;
                         }
                         else{
                             gen = "El que hizo esta parte del programa no quizo poner generaci&oacute;n para los mayores de 76 y menores de 10 años porque si &#x1F44D";
+                            <hr size=6 color=black> </hr>
+                            
                         }
                     }
                 }
