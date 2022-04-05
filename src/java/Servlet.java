@@ -43,12 +43,17 @@ public class Servlet extends HttpServlet {
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet</title>");            
-            out.println("</head>");
+            out.println("</head>"); 
             out.println("<body>");
-            out.println("PROGRAMA DE GENERACIONES");
-            out.println("¿Quieres saber de qué generación eres? Pues solo ingresa tu nombre y el año en que naciste para determinar a que generación perteneces");
+	    out.println("img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUI_dOxJiabCtC_IYy7HaXwvTaz0RTl1e_nw&usqp=CAU");
+	    out.println("<hr size=6 color=black></hr>");
+	    out.println("<br></br>")
+            out.println("<font size=8>PROGRAMA DE GENERACIONES</font>");
+            out.println("<font seize=6>¿Quieres saber de qué generación eres? Pues solo ingresa tu nombre y el año en que naciste para determinar a que generación perteneces</font>");
             out.println("<h1>Por favor, ingrese su nombre" + "</h1>");
-            out.println("<h1>Ahora ingrese la edad que cumple el 2022" + "</h1>");             
+	    out.prinln("<hr size=6 color=black></hr>");
+            out.println("<h1>Ahora ingrese la edad que cumple el 2022" + "</h1>");   
+	    out.println("<hr size=6 color=black></hr>");
 	    out.println("<br><br>");
             out.println("<a href=\"" + url +"\"> Para visualisar los resultados haga click </a>");
             out.println("</body>");
