@@ -11,8 +11,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Resultados</title>
     </head>
-    <body bgcolor=naranja>
-    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEsEDZNKhE1LD42Qp4zirzgSkDp10RTulQA&usqp=CAU align=middle>   
+    <body bgcolor=orange>
+    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEsEDZNKhE1LD42Qp4zirzgSkDp10RTulQA&usqp=CAU width=350 height=200 align=middle>   
        
         <%
             String nom1 = null;
@@ -30,21 +30,37 @@
             aNac = 2022 - edad;
             if (aNac >= 1946 && aNac < 1965) {
                 gen = "Baby boomer";
+         <%
+                <font color=purple> <%=gen%>
+         %>
             }
             else{
                 if (aNac >= 1965 && aNac <= 1981) {
                     gen = "X";
+           <%
+                    <font color=red> <%=gen%>
+           %>
                 }
                 else{
                     if (aNac >= 1982 && aNac < 1996) {
                         gen = "de los Millennials";
+            <%
+                        <font color=blue> <%=gen%>
+            %>
                     }
                     else{
                         if (aNac >= 1996 && aNac <= 2012) {
                             gen = "Z";
+            <%
+                            <font color=yellow> <%=gen%>
+            %>
                         }
                         else{
                             gen = "El que hizo esta parte del programa no quizo poner generaci&oacute;n para los mayores de 76 y menores de 10 años porque si &#x1F44D";
+                        
+            <%
+                            <font size=10 >
+            %>
                         }
                     }
                 }
@@ -56,7 +72,7 @@
         <br><a href="<%=url3%>">
         regresar </a>
         
-        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGLgGL0V45892Y7Epqe8_J4YCN9I1PmkVrw&usqp=CAU align=middle 
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGLgGL0V45892Y7Epqe8_J4YCN9I1PmkVrw&usqp=CAU align=middle>
         <br>
     </body>
 </html>
