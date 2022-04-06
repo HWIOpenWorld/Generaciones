@@ -22,7 +22,7 @@
            nom1 = request.getParameter("nombre");
            edad = Integer.parseInt(request.getParameter("edad"));
         %>
-        <hr size=6 color=black></hr>
+        <hr size=6 color="black">  </hr>
         <%
             String gen = "a";
             int aNac = 0;
@@ -30,45 +30,43 @@
             aNac = 2022 - edad;
             if (aNac >= 1946 && aNac < 1965) {
                 gen = "Baby boomer";
-         <%
-                <font color=purple> <%=gen%>
-         %>
+        %>
+                <h1><%=nom1%> Perteneces a la generación: <font color="purple"> <%=gen%> </font> </h1>
+        <%
             }
             else{
                 if (aNac >= 1965 && aNac <= 1981) {
                     gen = "X";
-           <%
-                    <font color=red> <%=gen%>
-           %>
+        %>
+                    <h1><%=nom1%> Perteneces a la generación: <font color="red"> <%=gen%> </font> </h1>
+        <%
                 }
                 else{
                     if (aNac >= 1982 && aNac < 1996) {
                         gen = "de los Millennials";
-            <%
-                        <font color=blue> <%=gen%>
-            %>
+        %>
+                        <h1><%=nom1%> Perteneces a la generación: <font color="blue"> <%=gen%> </font> </h1>
+        <%
                     }
                     else{
                         if (aNac >= 1996 && aNac <= 2012) {
                             gen = "Z";
-            <%
-                            <font color=yellow> <%=gen%>
-            %>
+        %>
+                            <h1><%=nom1%> Perteneces a la generación: <font color="yellow"> <%=gen%> </font> </h1>
+        <%
                         }
                         else{
                             gen = "El que hizo esta parte del programa no quizo poner generaci&oacute;n para los mayores de 76 y menores de 10 años porque si &#x1F44D";
                         
-            <%
-                            <font size=10 >
-            %>
+        %>
+                            <h1><%=nom1%> Perteneces a la generación: <font size="10"> <%=gen%> </font> </h1>
+        <%
                         }
                     }
                 }
             }
         %>
-        
-        <h1><%=nom1%> Perteneces a la generación: <%=gen%></h1>
-        
+                
         <br><a href="<%=url3%>">
         regresar </a>
         
